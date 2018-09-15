@@ -4,7 +4,7 @@ Simple docker container running rails and mysql
 ## Run
 docker-compose run app rails new . --force --database=mysql
 
-sudo chmod 777 -R /home/tyler/docker/dev/rails7/config/master.key
+sudo chmod 777 -R config/master.key
 
 docker-compose build
 
