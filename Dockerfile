@@ -5,5 +5,6 @@ RUN mkdir /project
 WORKDIR /project
 ADD ./Gemfile /project/Gemfile
 ADD ./Gemfile.lock /project/Gemfile.lock
+
 RUN bundle install
 COPY . /project
